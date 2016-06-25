@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.wilin.yx.sounddetectview.sample.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <com.wilin.yx.sounddetectview.SoundDetectionView
+        android:id="@+id/sound_detect_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:id="@+id/threshold_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sound_detect_view"
+        android:layout_margin="10dp"
+        android:text="Hello World!" />
+
+    <com.wilin.yx.sounddetectview.SoundDecibelLevelView
+        android:id="@+id/sound_level_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/threshold_text" />
+</RelativeLayout>

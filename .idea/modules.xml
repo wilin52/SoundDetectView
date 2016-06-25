@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SoundDetectLib/SoundDetectLib.iml" filepath="$PROJECT_DIR$/SoundDetectLib/SoundDetectLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SoundDetectSample/SoundDetectSample.iml" filepath="$PROJECT_DIR$/SoundDetectSample/SoundDetectSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SoundDetectView.iml" filepath="$PROJECT_DIR$/SoundDetectView.iml" />
+    </modules>
+  </component>
+</project>
